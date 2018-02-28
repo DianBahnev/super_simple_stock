@@ -80,6 +80,3 @@ class TestGlobalBeverageCorporationExchange(unittest.TestCase):
         exchange.record_trade(trade_3)
 
         self.assertEqual(int(exchange.all_share_index()), 64)
-
-
-
